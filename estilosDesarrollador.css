@@ -1,0 +1,31 @@
+.letrasCabecera{
+    height: 100px;
+    width: 100px;
+}
+
+
+#textoAzul{
+    color: cornflowerblue;
+}
+
+/* Hover zoom imagen */
+
+/* NO AFECTA A LOS HIJOS */
+#hoverZoomImagen{
+    overflow: hidden;
+}
+
+/* tRANSICION DE MOVIENTO DE ZOOM */
+#hoverZoomImagen img{
+    transition: transform .8s ease;
+}
+
+/* TAMAÑO DEL ZOOM */
+#hoverZoomImagen:hover img {
+    transform: scale(1.1);
+  }
+
+/* ICONOS REDES SOCIALES */
+#rrss{
+    color: white;
+}
